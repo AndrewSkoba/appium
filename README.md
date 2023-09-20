@@ -16,5 +16,5 @@ To be able to execute test suite follow the next steps:
 
 ### Steps
 1. Repo already cloned =)
-2. run command: mvn -test
+2.  run command: mvn -test
 3. As a result appeared cucumber report at path: target/cucumber-report.html
