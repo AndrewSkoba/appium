@@ -11,7 +11,7 @@ import org.example.utils.PropertyHolder;
 
 public class DriverModule extends AbstractModule {
 
-    private final PropertyHolder propertyHolder = new PropertyHolder();
+    private final  PropertyHolder propertyHolder = new PropertyHolder();
 
     @Override
     protected void configure() {
