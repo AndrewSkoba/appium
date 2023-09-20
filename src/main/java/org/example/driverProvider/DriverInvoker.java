@@ -26,6 +26,10 @@ public abstract class DriverInvoker {
         return driver;
     }
 
+    public AppiumDriver getDriver() {
+        return driver;
+    }
+
     public void stopSession() {
         if (driver != null) {
             driver.quit();
